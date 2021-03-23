@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    form{
+        padding: 5px;
+        margin: 0 auto;
+        width: 300px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    form label input{
+        margin: 5px;
+    }
+    table {
+        padding: 5px;
+        margin: 50px  auto;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+    #tableButton{
+     border: none;
+     background-color: lightgrey;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+    #tableButton:hover{
+        transform: scale(0.98);
+    }
+
+</style>
+<body>
+   
+    <form ><h3>slide 19</h3>
+        <label > car name <input type="text" id="nameInput"> </label><br>
+        <label > car color <input type="text" id="colorInput"></label><br>
+        <label > price <input type="text" id="priceInput"></label><br>
+        <button id="tableButton"  type="button"> SUBMIT</button>
+    </form>
+    <table id="mainTable">
+        <tr>
+            <th>car name</th>
+            <th>car color</th>
+            <th>value of car</th>
+        </tr>
+       
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
